@@ -20,7 +20,7 @@
     "strictNullChecks": true,
     "typeRoots": [
       "node_modules/@types",
-      "src/typings"
+      "packages/typings"
     ]
   },
   "exclude": [
@@ -28,8 +28,8 @@
     "node_modules/**/**.d.ts"
   ],
   "include": [
-    "src/**/**.ts",
-    "src/**/**.json",
+    "packages/**/**.ts",
+    "packages/**/**.json",
     "tsup.config.ts"
   ],
 }
