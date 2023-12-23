@@ -5,12 +5,19 @@
   "description": "",
   "main": "dist",
   "scripts": {
-    "build": "turbo run build"
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint:fix",
+    "docs:start": "turbo run start --filter=@sage-ui/storybook",
+    "docs:dev": "turbo run dev --filter=@sage-ui/storybook",
+    "docs:build": "turbo run build --filter=@sage-ui/storybook",
+    "component:build": "turbo run build --filter=!@sage-ui/storybook"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@storybook/react": "^7.6.6",
     "turbo": "^1.11.2"
   }
 }

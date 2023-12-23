@@ -28,8 +28,7 @@
     "node_modules/**/**.d.ts"
   ],
   "include": [
-    "packages/**/**.ts",
-    "packages/**/**.json",
+    "packages",
     "tsup.config.ts"
   ],
 }

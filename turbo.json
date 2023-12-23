@@ -5,6 +5,26 @@
             "dependsOn": [
                 "^build"
             ]
+        },
+        "lint": {
+            "dependsOn": [
+                "^lint"
+            ]
+        },
+        "dev": {
+            "dependsOn": [
+                "^dev"
+            ]
+        },
+        "start": {
+            "dependsOn": [
+                "^start"
+            ]
+        },
+        "lint:fix": {
+            "dependsOn": [
+                "^lint"
+            ]
         }
     }
 }
