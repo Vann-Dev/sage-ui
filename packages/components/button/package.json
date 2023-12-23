@@ -1,21 +1,25 @@
 {
-  "name": "@sage-ui/components",
+  "name": "@sage-ui/button",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "lint": "eslint src --ext ts",
+    "lint:fix": "eslint src --fix --ext ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@hazmi35/eslint-config": "^11.0.0",
+    "@types/react": "^18",
     "@typescript-eslint/eslint-plugin": "^6.15.0",
     "@typescript-eslint/parser": "^6.15.0",
     "eslint": "^8.56.0",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   },
   "eslintConfig": {
     "parser": "@typescript-eslint/parser",
@@ -33,5 +37,13 @@
     "rules": {
       "class-methods-use-this": "off"
     }
+  },
+  "dependencies": {
+    "react": "^18",
+    "@sage-ui/theme": "workspace:^"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
   }
 }
