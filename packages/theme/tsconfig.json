@@ -17,6 +17,7 @@
     "noEmitHelpers": true,
     "importHelpers": true,
     "resolveJsonModule": true,
+    "declaration": true,
     "strictNullChecks": true,
     "typeRoots": [
       "node_modules/@types",
