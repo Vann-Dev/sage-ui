@@ -2,7 +2,7 @@
   "name": "sage-ui",
   "version": "1.0.0",
   "type": "module",
-  "description": "",
+  "description": "Sage UI is a package used for component using tailwindcss",
   "main": "dist",
   "scripts": {
     "build": "turbo run build",
@@ -14,13 +14,21 @@
     "component:build": "turbo run build --filter=!@sage-ui/storybook"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Vann-Dev",
+  "license": "GPL-3.0",
   "devDependencies": {
     "@storybook/react": "^7.6.6",
     "turbo": "^1.11.2"
   },
   "dependencies": {
     "lerna": "^8.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vann-Dev/sage-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vann-Dev/sage-ui/issues"
+  },
+  "homepage": "https://github.com/Vann-Dev/sage-ui#readme"
 }
