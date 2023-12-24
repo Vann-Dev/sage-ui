@@ -1,17 +1,17 @@
 {
-  "name": "sage-ui",
+  "name": "kokoro-ui",
   "version": "1.0.0",
   "type": "module",
-  "description": "Sage UI is a package used for component using tailwindcss",
+  "description": "Kokoro UI is a package used for component using tailwindcss",
   "main": "dist",
   "scripts": {
     "build": "turbo run build",
     "lint": "turbo run lint",
     "lint:fix": "turbo run lint:fix",
-    "docs:start": "turbo run start --filter=@sage-ui/storybook",
-    "docs:dev": "turbo run dev --filter=@sage-ui/storybook",
-    "docs:build": "turbo run build --filter=@sage-ui/storybook",
-    "component:build": "turbo run build --filter=!@sage-ui/storybook"
+    "docs:start": "turbo run start --filter=@kokoro-ui/storybook",
+    "docs:dev": "turbo run dev --filter=@kokoro-ui/storybook",
+    "docs:build": "turbo run build --filter=@kokoro-ui/storybook",
+    "component:build": "turbo run build --filter=!@kokoro-ui/storybook"
   },
   "keywords": [],
   "author": "Vann-Dev",
@@ -25,10 +25,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vann-Dev/sage-ui.git"
+    "url": "git+https://github.com/Vann-Dev/kokoro-ui.git"
   },
   "bugs": {
-    "url": "https://github.com/Vann-Dev/sage-ui/issues"
+    "url": "https://github.com/Vann-Dev/kokoro-ui/issues"
   },
-  "homepage": "https://github.com/Vann-Dev/sage-ui#readme"
+  "homepage": "https://github.com/Vann-Dev/kokoro-ui#readme"
 }

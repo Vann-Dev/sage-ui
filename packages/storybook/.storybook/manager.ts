@@ -5,8 +5,8 @@ addons.setConfig({
     theme: create({
         base: "dark",
 
-        brandTitle: "Sage UI",
-        brandUrl: "https://github.com/Vann-Dev/sage-ui",
+        brandTitle: "kokoro UI",
+        brandUrl: "https://github.com/Vann-Dev/kokoro-ui",
         brandImage: "https://content.vannapps.com/public/sageui-icon.png"
     }),
 });

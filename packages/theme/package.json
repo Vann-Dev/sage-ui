@@ -1,7 +1,7 @@
 {
-  "name": "@sage-ui/theme",
+  "name": "@kokoro-ui/theme",
   "version": "0.0.1",
-  "description": "Sage UI theme package",
+  "description": "Kokoro UI theme package",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "keywords": [
     "theme",
-    "sage-ui",
+    "kokoro-ui",
     "ui",
     "ux",
     "component",
@@ -21,7 +21,7 @@
   ],
   "author": "Vann-Dev <me@vann.my.id> (https://vann.my.id)",
   "repository": {
-    "url": "git+https://github.com/Vann-Dev/sage-ui.git",
+    "url": "git+https://github.com/Vann-Dev/kokoro-ui.git",
     "directory": "packages/theme"
   },
   "engines": {
@@ -60,7 +60,7 @@
     "tailwind-variants": "^0.1.19"
   },
   "bugs": {
-    "url": "https://github.com/Vann-Dev/sage-ui/issues"
+    "url": "https://github.com/Vann-Dev/kokoro-ui/issues"
   },
-  "homepage": "https://github.com/Vann-Dev/sage-ui#readme"
+  "homepage": "https://github.com/Vann-Dev/kokoro-ui#readme"
 }

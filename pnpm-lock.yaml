@@ -21,7 +21,7 @@ importers:
 
   packages/components/button:
     dependencies:
-      '@sage-ui/theme':
+      '@kokoro-ui/theme':
         specifier: workspace:^
         version: link:../../theme
       react:
@@ -52,10 +52,10 @@ importers:
 
   packages/storybook:
     dependencies:
-      '@sage-ui/button':
+      '@kokoro-ui/button':
         specifier: workspace:^
         version: link:../components/button
-      '@sage-ui/theme':
+      '@kokoro-ui/theme':
         specifier: workspace:^
         version: link:../theme
       next:

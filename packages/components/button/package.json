@@ -1,7 +1,7 @@
 {
-  "name": "@sage-ui/button",
+  "name": "@kokoro-ui/button",
   "version": "0.0.1",
-  "description": "Sage UI Button package",
+  "description": "Kokoro UI Button package",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
@@ -10,7 +10,7 @@
   },
   "keywords": [
     "theme",
-    "sage-ui",
+    "kokoro-ui",
     "ui",
     "ux",
     "component",
@@ -51,7 +51,7 @@
     }
   },
   "dependencies": {
-    "@sage-ui/theme": "workspace:^",
+    "@kokoro-ui/theme": "workspace:^",
     "react": "^18"
   },
   "peerDependencies": {
@@ -61,10 +61,10 @@
   "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vann-Dev/sage-ui.git"
+    "url": "git+https://github.com/Vann-Dev/kokoro-ui.git"
   },
   "bugs": {
-    "url": "https://github.com/Vann-Dev/sage-ui/issues"
+    "url": "https://github.com/Vann-Dev/kokoro-ui/issues"
   },
-  "homepage": "https://github.com/Vann-Dev/sage-ui#readme"
+  "homepage": "https://github.com/Vann-Dev/kokoro-ui#readme"
 }
