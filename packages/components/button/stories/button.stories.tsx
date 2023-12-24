@@ -19,16 +19,6 @@ const meta = {
                 "warning",
                 "danger"
             ]
-        },
-        size: {
-            control: {
-                type: "select"
-            },
-            options: [
-                "sm",
-                "md",
-                "lg"
-            ]
         }
     }
 } satisfies Meta<typeof Button>;
