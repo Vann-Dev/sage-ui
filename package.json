@@ -21,7 +21,7 @@
     "turbo": "^1.11.2"
   },
   "dependencies": {
-    "lerna": "^8.0.1"
+    "@changesets/cli": "^2.27.1"
   },
   "repository": {
     "type": "git",

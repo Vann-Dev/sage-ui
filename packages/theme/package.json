@@ -21,7 +21,7 @@
   ],
   "author": "Vann-Dev <me@vann.my.id> (https://vann.my.id)",
   "repository": {
-    "url": "git+https://github.com/Vann-Dev/kokoro-ui.git",
+    "url": "git+https://github.com/Vann-Dev/Kokoro.git",
     "directory": "packages/theme"
   },
   "engines": {
@@ -60,7 +60,8 @@
     "tailwind-variants": "^0.1.19"
   },
   "bugs": {
-    "url": "https://github.com/Vann-Dev/kokoro-ui/issues"
+    "url": "https://github.com/Vann-Dev/Kokoro/issues"
   },
-  "homepage": "https://github.com/Vann-Dev/kokoro-ui#readme"
+  "homepage": "https://github.com/Vann-Dev/Kokoro#readme",
+  "gitHead": "245f8915fae06ac9906b61262086c72a10d8639a"
 }

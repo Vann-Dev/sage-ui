@@ -51,7 +51,7 @@
     }
   },
   "dependencies": {
-    "@kokoro-ui/theme": "workspace:^",
+    "@kokoro-ui/theme": "^0.0.2",
     "react": "^18"
   },
   "peerDependencies": {
@@ -61,10 +61,11 @@
   "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vann-Dev/kokoro-ui.git"
+    "url": "git+https://github.com/Vann-Dev/kokoro.git"
   },
   "bugs": {
-    "url": "https://github.com/Vann-Dev/kokoro-ui/issues"
+    "url": "https://github.com/Vann-Dev/kokoro/issues"
   },
-  "homepage": "https://github.com/Vann-Dev/kokoro-ui#readme"
+  "homepage": "https://github.com/Vann-Dev/kokoro#readme",
+  "gitHead": "245f8915fae06ac9906b61262086c72a10d8639a"
 }
