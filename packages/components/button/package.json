@@ -1,16 +1,28 @@
 {
   "name": "@sage-ui/button",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sage UI Button package",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "lint": "eslint src --ext ts",
     "lint:fix": "eslint src --fix --ext ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "theme",
+    "sage-ui",
+    "ui",
+    "ux",
+    "component",
+    "tailwindcss",
+    "tailwindcss",
+    "nextjs"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "author": "Vann-Dev",
+  "license": "GPL-3.0",
   "devDependencies": {
     "@hazmi35/eslint-config": "^11.0.0",
     "@types/react": "^18",
@@ -45,5 +57,14 @@
   "peerDependencies": {
     "react": ">=18",
     "react-dom": ">=18"
-  }
+  },
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vann-Dev/sage-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vann-Dev/sage-ui/issues"
+  },
+  "homepage": "https://github.com/Vann-Dev/sage-ui#readme"
 }
