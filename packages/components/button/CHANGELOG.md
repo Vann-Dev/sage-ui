@@ -1,5 +1,11 @@
 # @kokoro-ui/button
 
+## 0.0.12
+
+### Patch Changes
+
+- feat: add classname
+
 ## 0.0.11
 
 ### Patch Changes
