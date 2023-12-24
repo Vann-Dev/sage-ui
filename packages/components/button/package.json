@@ -1,13 +1,18 @@
 {
   "name": "@kokoro-ui/button",
-  "version": "0.0.2",
+  "version": "0.0.9",
   "description": "Kokoro UI Button package",
   "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "lint": "eslint src --ext ts",
     "lint:fix": "eslint src --fix --ext ts"
   },
+  "files": [
+    "./dist",
+    "./package.json"
+  ],
   "keywords": [
     "theme",
     "kokoro-ui",
@@ -51,8 +56,7 @@
     }
   },
   "dependencies": {
-    "@kokoro-ui/theme": "^0.0.2",
-    "react": "^18"
+    "@kokoro-ui/theme": "^0.0.5"
   },
   "peerDependencies": {
     "react": ">=18",

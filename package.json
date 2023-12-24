@@ -11,7 +11,10 @@
     "docs:start": "turbo run start --filter=@kokoro-ui/storybook",
     "docs:dev": "turbo run dev --filter=@kokoro-ui/storybook",
     "docs:build": "turbo run build --filter=@kokoro-ui/storybook",
-    "component:build": "turbo run build --filter=!@kokoro-ui/storybook"
+    "component:build": "turbo run build --filter=!@kokoro-ui/storybook",
+    "npm:version": "pnpm run component:build && changeset",
+    "npm:publish": "changeset publish",
+    "npm:bump": "changeset version"
   },
   "keywords": [],
   "author": "Vann-Dev",
