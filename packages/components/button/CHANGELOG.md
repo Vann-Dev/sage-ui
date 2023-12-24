@@ -1,5 +1,11 @@
 # @kokoro-ui/button
 
+## 0.0.11
+
+### Patch Changes
+
+- feat: add typings
+
 ## 0.0.10
 
 ### Patch Changes
