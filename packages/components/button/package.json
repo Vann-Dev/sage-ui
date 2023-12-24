@@ -29,9 +29,9 @@
     "@typescript-eslint/eslint-plugin": "^6.15.0",
     "@typescript-eslint/parser": "^6.15.0",
     "eslint": "^8.56.0",
-    "typescript": "^5.3.3",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "typescript": "^5.3.3"
   },
   "eslintConfig": {
     "parser": "@typescript-eslint/parser",
@@ -51,8 +51,8 @@
     }
   },
   "dependencies": {
-    "react": "^18",
-    "@sage-ui/theme": "workspace:^"
+    "@sage-ui/theme": "workspace:^",
+    "react": "^18"
   },
   "peerDependencies": {
     "react": ">=18",
