@@ -1,8 +1,8 @@
 import React from "react";
-import { ButtonVariantProps, button } from "@kokoro-ui/theme";
+import { button } from "@kokoro-ui/theme";
 
 export interface ButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
-    color: ButtonVariantProps["color"] | "primary";
+    color: "primary" | "secondary" | "outline" | "danger" | "warning" | "ghost" | "link" | undefined;
     disabled?: boolean;
     label: string;
 }

@@ -1,5 +1,13 @@
 # @kokoro-ui/button
 
+## 0.0.10
+
+### Patch Changes
+
+- feat: add typings
+- Updated dependencies
+  - @kokoro-ui/theme@0.0.6
+
 ## 0.0.9
 
 ### Patch Changes
