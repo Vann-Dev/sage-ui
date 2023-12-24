@@ -15,7 +15,9 @@ const meta = {
             },
             options: [
                 "primary",
-                "secondary"
+                "secondary",
+                "warning",
+                "danger"
             ]
         },
         size: {
@@ -45,5 +47,48 @@ export const Secondary: Story = {
     args: {
         label: "Secondary",
         color: "secondary"
+    }
+};
+
+export const Outline: Story = {
+    args: {
+        label: "Outline",
+        color: "outline"
+    }
+};
+
+export const Warning: Story = {
+    args: {
+        label: "Warning",
+        color: "warning"
+    }
+};
+
+export const Danger: Story = {
+    args: {
+        label: "Danger",
+        color: "danger"
+    }
+};
+
+export const Ghost: Story = {
+    args: {
+        label: "Ghost",
+        color: "ghost"
+    }
+};
+
+export const Link: Story = {
+    args: {
+        label: "Link",
+        color: "link"
+    }
+};
+
+export const Disabled: Story = {
+    args: {
+        label: "Disabled",
+        color: "primary",
+        disabled: true
     }
 };
