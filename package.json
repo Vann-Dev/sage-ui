@@ -21,6 +21,6 @@
     "turbo": "^1.11.2"
   },
   "dependencies": {
-    "@changesets/cli": "^2.27.1"
+    "lerna": "^8.0.1"
   }
 }
