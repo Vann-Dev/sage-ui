@@ -1,5 +1,11 @@
 # @kokoro-ui/color
 
+## 0.0.4
+
+### Patch Changes
+
+- feat: add primary color
+
 ## 0.0.3
 
 ### Patch Changes
