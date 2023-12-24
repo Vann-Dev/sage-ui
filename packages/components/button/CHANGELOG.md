@@ -1,5 +1,11 @@
 # @kokoro-ui/button
 
+## 0.0.13
+
+### Patch Changes
+
+- feat: use children and make color not required
+
 ## 0.0.12
 
 ### Patch Changes

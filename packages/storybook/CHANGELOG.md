@@ -1,5 +1,12 @@
 # @kokoro-ui/storybook
 
+## 0.0.12
+
+### Patch Changes
+
+- Updated dependencies
+  - @kokoro-ui/button@0.0.13
+
 ## 0.0.11
 
 ### Patch Changes

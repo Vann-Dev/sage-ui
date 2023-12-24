@@ -28,56 +28,56 @@ type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
     args: {
-        label: "Primary",
+        children: "Primary",
         color: "primary"
     }
 };
 
 export const Secondary: Story = {
     args: {
-        label: "Secondary",
+        children: "Secondary",
         color: "secondary"
     }
 };
 
 export const Outline: Story = {
     args: {
-        label: "Outline",
+        children: "Outline",
         color: "outline"
     }
 };
 
 export const Warning: Story = {
     args: {
-        label: "Warning",
+        children: "Warning",
         color: "warning"
     }
 };
 
 export const Danger: Story = {
     args: {
-        label: "Danger",
+        children: "Danger",
         color: "danger"
     }
 };
 
 export const Ghost: Story = {
     args: {
-        label: "Ghost",
+        children: "Ghost",
         color: "ghost"
     }
 };
 
 export const Link: Story = {
     args: {
-        label: "Link",
+        children: "Link",
         color: "link"
     }
 };
 
 export const Disabled: Story = {
     args: {
-        label: "Disabled",
+        children: "Disabled",
         color: "secondary",
         disabled: true
     }
