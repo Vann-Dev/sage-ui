@@ -78,7 +78,7 @@ export const Link: Story = {
 export const Disabled: Story = {
     args: {
         label: "Disabled",
-        color: "primary",
+        color: "secondary",
         disabled: true
     }
 };
