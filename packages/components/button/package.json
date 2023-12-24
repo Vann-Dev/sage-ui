@@ -1,6 +1,6 @@
 {
   "name": "@kokoro-ui/button",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Kokoro UI Button package",
   "main": "dist/index.js",
   "scripts": {
