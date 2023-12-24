@@ -19,5 +19,8 @@
   "devDependencies": {
     "@storybook/react": "^7.6.6",
     "turbo": "^1.11.2"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.27.1"
   }
 }

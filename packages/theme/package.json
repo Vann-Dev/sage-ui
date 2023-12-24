@@ -1,6 +1,6 @@
 {
   "name": "@sage-ui/theme",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Sage UI theme package",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
