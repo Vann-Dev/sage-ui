@@ -11,15 +11,9 @@ const button = tv({
             warning: "bg-yellow-600",
             ghost: "bg-transparent",
             link: "hover:underline"
-        },
-        size: {
-            sm: "text-sm",
-            md: "text-base",
-            lg: "text-lg px-8 py-4"
         }
     },
     defaultVariants: {
-        size: "sm",
         color: "primary"
     }
 });
