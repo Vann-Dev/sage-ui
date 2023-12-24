@@ -1,16 +1,33 @@
 {
   "name": "@sage-ui/theme",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sage UI theme package",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "lint": "eslint src --ext ts",
     "lint:fix": "eslint src --fix --ext ts",
     "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "theme",
+    "sage-ui",
+    "ui",
+    "ux",
+    "component",
+    "tailwindcss",
+    "tailwindcss",
+    "nextjs"
+  ],
+  "author": "Vann-Dev <me@vann.my.id> (https://vann.my.id)",
+  "repository": {
+    "url": "git+https://github.com/Vann-Dev/sage-ui.git",
+    "directory": "packages/theme"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "license": "GPL-3.0",
   "devDependencies": {
     "@hazmi35/eslint-config": "^11.0.0",
     "@typescript-eslint/eslint-plugin": "^6.15.0",
@@ -41,5 +58,9 @@
   },
   "dependencies": {
     "tailwind-variants": "^0.1.19"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/Vann-Dev/sage-ui/issues"
+  },
+  "homepage": "https://github.com/Vann-Dev/sage-ui#readme"
 }
