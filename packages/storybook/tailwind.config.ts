@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss'
+import { color } from "@kokoro-ui/color";
 
 const config: Config = {
   content: [
@@ -17,6 +18,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [color],
 }
 export default config

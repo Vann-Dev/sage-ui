@@ -1,18 +1,9 @@
 {
-  "name": "@kokoro-ui/button",
-  "version": "0.0.14",
-  "description": "Kokoro UI Button package",
+  "name": "@kokoro-ui/color",
+  "version": "0.0.3",
+  "description": "Kokoro UI color tailwind plugin",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
-  "scripts": {
-    "build": "tsc",
-    "lint": "eslint src --ext ts",
-    "lint:fix": "eslint src --fix --ext ts"
-  },
-  "files": [
-    "./dist",
-    "./package.json"
-  ],
   "keywords": [
     "theme",
     "kokoro-ui",
@@ -23,20 +14,23 @@
     "tailwindcss",
     "nextjs"
   ],
+  "files": [
+    "./dist",
+    "./package.json"
+  ],
   "engines": {
     "node": ">=20.0.0"
   },
-  "author": "Vann-Dev",
-  "license": "GPL-3.0",
   "devDependencies": {
     "@hazmi35/eslint-config": "^11.0.0",
-    "@types/react": "^18",
     "@typescript-eslint/eslint-plugin": "^6.15.0",
     "@typescript-eslint/parser": "^6.15.0",
     "eslint": "^8.56.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
     "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "typescript": "*",
+    "tailwindcss": "*"
   },
   "eslintConfig": {
     "parser": "@typescript-eslint/parser",
@@ -55,21 +49,20 @@
       "class-methods-use-this": "off"
     }
   },
-  "dependencies": {
-    "@kokoro-ui/theme": "^0.0.7"
+  "scripts": {
+    "lint": "eslint src --ext ts",
+    "lint:fix": "eslint src --fix --ext ts",
+    "build": "tsc"
   },
-  "peerDependencies": {
-    "react": ">=18",
-    "react-dom": ">=18"
-  },
-  "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vann-Dev/kokoro.git"
+    "url": "git+https://github.com/Vann-Dev/Kokoro.git",
+    "directory": "packages/color"
   },
+  "author": "Vann-Dev <me@vann.my.id> (https://vann.my.id)",
+  "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/Vann-Dev/kokoro/issues"
+    "url": "https://github.com/Vann-Dev/Kokoro/issues"
   },
-  "homepage": "https://github.com/Vann-Dev/kokoro#readme",
-  "gitHead": "245f8915fae06ac9906b61262086c72a10d8639a"
+  "homepage": "https://github.com/Vann-Dev/Kokoro#readme"
 }

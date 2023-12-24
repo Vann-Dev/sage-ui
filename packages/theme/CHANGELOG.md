@@ -1,5 +1,11 @@
 # @kokoro-ui/theme
 
+## 0.0.7
+
+### Patch Changes
+
+- feat: change color using package
+
 ## 0.0.6
 
 ### Patch Changes

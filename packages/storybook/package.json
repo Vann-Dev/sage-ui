@@ -1,6 +1,6 @@
 {
   "name": "@kokoro-ui/storybook",
-  "version": "0.0.12",
+  "version": "0.0.14",
   "private": true,
   "scripts": {
     "lint": "next lint",
@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@kokoro-ui/button": "workspace:^",
+    "@kokoro-ui/color": "workspace:^",
     "@kokoro-ui/theme": "workspace:^",
     "next": "14.0.4",
     "react": "^18",
