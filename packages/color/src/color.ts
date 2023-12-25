@@ -6,10 +6,10 @@ interface Colors {
 }
 
 const colors: Colors = {
-    primary: "#4FB058",
+    primary: "#32A6FC",
     secondary: "#52525b",
-    danger: "#b91c1c",
-    warning: "#ca8a04"
+    danger: "#f74434",
+    warning: "#f7c334"
 };
 
 export { colors, type Colors };

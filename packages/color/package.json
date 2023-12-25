@@ -1,6 +1,6 @@
 {
   "name": "@kokoro-ui/color",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Kokoro UI color tailwind plugin",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
