@@ -128,3 +128,4 @@ dist
 
 .vscode
 .turbo
+storybook-static
