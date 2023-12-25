@@ -17,7 +17,10 @@ const meta = {
                 "primary",
                 "secondary",
                 "warning",
-                "danger"
+                "danger",
+                "outline",
+                "ghost",
+                "link"
             ]
         }
     }
