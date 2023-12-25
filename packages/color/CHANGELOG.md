@@ -1,5 +1,11 @@
 # @kokoro-ui/color
 
+## 0.0.6
+
+### Patch Changes
+
+- feat: make color as optional to change
+
 ## 0.0.5
 
 ### Patch Changes

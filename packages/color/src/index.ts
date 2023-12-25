@@ -1,5 +1,5 @@
 import plugin from "tailwindcss/plugin";
-import { colors, colorType } from "./color";
+import { colors, Colors } from "./color";
 import { Config, PluginCreator } from "tailwindcss/types/config";
 
 const customColor: Record<string, Record<string, string>> = {};
@@ -13,7 +13,7 @@ Object.entries(colors).forEach(([key, value]) => {
     customColor[`.outline-${key}`] = { "outline-color": value };
 });
 
-function color(colorTheme?: colorType): { handler: PluginCreator; config?: Partial<Config> | undefined } {
+function color(colorTheme?: Colors): { handler: PluginCreator; config?: Partial<Config> | undefined } {
     if (colorTheme) {
         Object.entries(colorTheme).forEach(([key, value]) => {
             customColor[`.bg-${key}`] = { "background-color": value };
@@ -30,4 +30,4 @@ function color(colorTheme?: colorType): { handler: PluginCreator; config?: Parti
     });
 }
 
-export { color, type colorType };
+export { color, type Colors };
