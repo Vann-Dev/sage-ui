@@ -7,7 +7,7 @@ export interface ButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
 }
 
 // eslint-disable-next-line max-len
-const Button = React.forwardRef<HTMLButtonElement, ButtonProps>((props, ref) => <button disabled={props.disabled} ref={ref} className={`${button({ color: props.color })} ${props.className}`}>
+const Button = React.forwardRef<HTMLButtonElement, ButtonProps>((props, ref) => <button disabled={props.disabled} ref={ref} className={button({ color: props.color, className: props.className })}>
     {props.children}
 </button>);
 

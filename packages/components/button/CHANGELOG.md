@@ -1,5 +1,13 @@
 # @kokoro-ui/button
 
+## 0.0.15
+
+### Patch Changes
+
+- feat: add class override
+- Updated dependencies
+  - @kokoro-ui/theme@0.0.8
+
 ## 0.0.14
 
 ### Patch Changes
