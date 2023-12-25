@@ -1,5 +1,11 @@
 # @kokoro-ui/theme
 
+## 0.0.8
+
+### Patch Changes
+
+- feat: add default text color
+
 ## 0.0.7
 
 ### Patch Changes
