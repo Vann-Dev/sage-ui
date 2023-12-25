@@ -1,5 +1,11 @@
 # @kokoro-ui/color
 
+## 0.0.5
+
+### Patch Changes
+
+- feat: add color type, and custom color
+
 ## 0.0.4
 
 ### Patch Changes

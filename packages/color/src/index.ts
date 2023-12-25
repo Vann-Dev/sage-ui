@@ -1,17 +1,33 @@
 import plugin from "tailwindcss/plugin";
-import { colors } from "./color";
+import { colors, colorType } from "./color";
+import { Config, PluginCreator } from "tailwindcss/types/config";
 
 const customColor: Record<string, Record<string, string>> = {};
 
-colors.forEach(col => {
-    customColor[`.bg-${col.name}`] = { "background-color": col.color };
-    customColor[`.text-${col.name}`] = { color: col.color };
-    customColor[`.border-${col.name}`] = { "border-color": col.color };
-    customColor[`.divide-${col.name}`] = { "border-color": col.color };
+Object.entries(colors).forEach(([key, value]) => {
+    customColor[`.bg-${key}`] = { "background-color": value };
+    customColor[`.text-${key}`] = { color: value };
+    customColor[`.border-${key}`] = { "border-color": value };
+    customColor[`.divide-${key}`] = { "border-color": value };
+    customColor[`.ring-${key}`] = { "--tw-ring-color": value };
+    customColor[`.outline-${key}`] = { "outline-color": value };
 });
 
-const color = plugin(({ addUtilities }) => {
-    addUtilities(customColor);
-});
+function color(colorTheme?: colorType): { handler: PluginCreator; config?: Partial<Config> | undefined } {
+    if (colorTheme) {
+        Object.entries(colorTheme).forEach(([key, value]) => {
+            customColor[`.bg-${key}`] = { "background-color": value };
+            customColor[`.text-${key}`] = { color: value };
+            customColor[`.border-${key}`] = { "border-color": value };
+            customColor[`.divide-${key}`] = { "border-color": value };
+            customColor[`.ring-${key}`] = { "--tw-ring-color": value };
+            customColor[`.outline-${key}`] = { "outline-color": value };
+        });
+    }
 
-export { color };
+    return plugin(({ addUtilities }) => {
+        addUtilities(customColor);
+    });
+}
+
+export { color, type colorType };

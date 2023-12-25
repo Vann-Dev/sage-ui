@@ -1,25 +1,9 @@
-interface Color {
-    name: string;
-    color: string;
-}
-
-const colors: Color[] = [
-    {
-        name: "primary",
-        color: "#4FB058"
-    },
-    {
-        name: "secondary",
-        color: "#52525b"
-    },
-    {
-        name: "danger",
-        color: "#b91c1c"
-    },
-    {
-        name: "warning",
-        color: "#ca8a04"
-    }
-];
+const colors = {
+    primary: "#4FB058",
+    secondary: "#52525b",
+    danger: "#b91c1c",
+    warning: "#ca8a04"
+};
 
 export { colors };
+export type colorType = typeof colors;
