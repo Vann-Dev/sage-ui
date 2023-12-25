@@ -18,6 +18,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [color],
+  plugins: [color()],
 }
 export default config
