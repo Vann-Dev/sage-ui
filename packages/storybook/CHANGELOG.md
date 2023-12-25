@@ -1,5 +1,12 @@
 # @kokoro-ui/storybook
 
+## 0.0.18
+
+### Patch Changes
+
+- Updated dependencies
+  - @kokoro-ui/color@0.0.7
+
 ## 0.0.17
 
 ### Patch Changes

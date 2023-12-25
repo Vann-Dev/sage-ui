@@ -7,6 +7,6 @@ addons.setConfig({
 
         brandTitle: "kokoro UI",
         brandUrl: "https://github.com/Vann-Dev/kokoro-ui",
-        brandImage: "https://content.vannapps.com/public/sageui-icon.png"
+        brandImage: "https://content.vannapps.com/public/kokoro-icon.png"
     }),
 });
