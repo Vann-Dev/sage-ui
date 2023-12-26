@@ -1,5 +1,18 @@
 # @kokoro-ui/button
 
+## 0.0.20
+
+### Patch Changes
+
+- Updated dependencies
+  - @kokoro-ui/theme@0.0.10
+
+## 0.0.19
+
+### Patch Changes
+
+- chore: change readme
+
 ## 0.0.18
 
 ### Patch Changes

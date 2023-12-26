@@ -1,6 +1,6 @@
-# How to Install Kokoro UI
+# @kokoro-ui/theme
 
-`Main package used for @kokoro-ui components, before using components, projects should install this package first`
+> Main package used for @kokoro-ui components, before using components, projects should install this package first
 
 <br/>
 

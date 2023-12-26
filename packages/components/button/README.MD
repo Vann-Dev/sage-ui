@@ -62,3 +62,7 @@ const app = () => {
 
 export default app;
 ```
+<br/>
+
+# Note
+to change default color use [**@kokoro-ui/color**](https://www.npmjs.com/package/@kokoro-ui/color)

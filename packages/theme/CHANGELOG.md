@@ -1,5 +1,11 @@
 # @kokoro-ui/theme
 
+## 0.0.10
+
+### Patch Changes
+
+- chore: change readme
+
 ## 0.0.9
 
 ### Patch Changes

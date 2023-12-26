@@ -1,5 +1,11 @@
 # @kokoro-ui/color
 
+## 0.0.9
+
+### Patch Changes
+
+- feat: add usage
+
 ## 0.0.8
 
 ### Patch Changes
