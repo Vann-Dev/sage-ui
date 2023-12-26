@@ -1,5 +1,12 @@
 # @kokoro-ui/button
 
+## 0.0.18
+
+### Patch Changes
+
+- Updated dependencies
+  - @kokoro-ui/theme@0.0.9
+
 ## 0.0.17
 
 ### Patch Changes

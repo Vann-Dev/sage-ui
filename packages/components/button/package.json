@@ -1,6 +1,6 @@
 {
   "name": "@kokoro-ui/button",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "Kokoro UI Button package",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -56,7 +56,7 @@
     }
   },
   "dependencies": {
-    "@kokoro-ui/theme": "^0.0.8"
+    "@kokoro-ui/theme": "^0.0.9"
   },
   "peerDependencies": {
     "react": ">=18",
