@@ -1,6 +1,6 @@
 {
   "name": "@kokoro-ui/storybook",
-  "version": "0.0.19",
+  "version": "0.0.21",
   "private": true,
   "scripts": {
     "start": "pnpm dlx http-server storybook-static",
