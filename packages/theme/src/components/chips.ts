@@ -1,7 +1,7 @@
 import { VariantProps, tv } from "tailwind-variants";
 
-const button = tv({
-    base: "font-medium px-6 py-3 rounded-full enabled:hover:opacity-80 transition-opacity duration-100 disabled:opacity-80 text-white",
+const chips = tv({
+    base: "px-3 py-[6px] rounded-lg enabled:hover:opacity-80 transition-opacity duration-100 disabled:opacity-80 text-white",
     variants: {
         variant: {
             primary: "bg-primary",
@@ -18,6 +18,6 @@ const button = tv({
     }
 });
 
-export type ButtonVariantProps = VariantProps<typeof button>;
+export type ChipsVariantProps = VariantProps<typeof chips>;
 
-export { button };
+export { chips };
