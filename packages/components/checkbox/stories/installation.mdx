@@ -1,0 +1,76 @@
+import { Meta } from "@storybook/blocks";
+
+<Meta title="Components/Checkbox/Installation" />
+
+# @kokoro-ui/checkbox
+
+<br/>
+
+---
+
+## ****npm****
+```bash
+npm i @kokoro-ui/checkbox
+```
+
+---
+
+## ****pnpm****
+```bash
+pnpm add @kokoro-ui/checkbox
+```
+
+---
+
+## ****yarn****
+```bash
+yarn add @kokoro-ui/checkbox
+```
+
+---
+
+# Usage
+
+**Typescript**
+```tsx
+import { Checkbox } from "@kokoro-ui/checkbox";
+
+const app = () => {
+    return (
+        <Checkbox
+            onCheck={(isChecked: boolean) => { 
+                console.log(isChecked); 
+            }}
+            selected
+        >
+            <div className="text-white">
+                Checkbox Checked
+            </div>
+        </Checkbox>
+    )
+};
+
+export default app;
+```
+
+**Javascript**
+```jsx
+const { checkbox } = require("@kokoro-ui/checkbox");
+
+const app = () => {
+    return (
+        <Checkbox
+            onCheck={(isChecked) => {
+                console.log(isChecked);
+            }}
+            selected
+        >
+            <div className="text-white">
+                Checkbox Checked
+            </div>
+        </Checkbox>
+    )
+};
+
+export default app;
+```
