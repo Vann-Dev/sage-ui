@@ -1,32 +1,26 @@
-# How to install
+# @kokoro-ui/button
 
 <br/>
-
-## ****Requirements****
-
-- [**@kokoro-ui/theme**](https://www.npmjs.com/package/@kokoro-ui/theme)
-- [**@kokoro-ui/button**](https://www.npmjs.com/package/@kokoro-ui/button)
-- [**@kokoro-ui/color**](https://www.npmjs.com/package/@kokoro-ui/color)
 
 ---
 
 ## ****npm****
 ```bash
-npm i @kokoro-ui/color @kokoro-ui/button
+npm i @kokoro-ui/button
 ```
 
 ---
 
 ## ****pnpm****
 ```bash
-pnpm add @kokoro-ui/color @kokoro-ui/button
+pnpm add @kokoro-ui/button
 ```
 
 ---
 
 ## ****yarn****
 ```bash
-yarn add @kokoro-ui/color @kokoro-ui/button
+yarn add @kokoro-ui/button
 ```
 
 ---
@@ -62,7 +56,3 @@ const app = () => {
 
 export default app;
 ```
-<br/>
-
-# Note
-to change default color use [**@kokoro-ui/color**](https://www.npmjs.com/package/@kokoro-ui/color)
