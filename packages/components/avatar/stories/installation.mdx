@@ -1,0 +1,66 @@
+import { Meta } from "@storybook/blocks";
+
+<Meta title="Components/Avatar/Installation" />
+
+# @kokoro-ui/avatar
+
+<br/>
+
+---
+
+## ****npm****
+```bash
+npm i @kokoro-ui/avatar
+```
+
+---
+
+## ****pnpm****
+```bash
+pnpm add @kokoro-ui/avatar
+```
+
+---
+
+## ****yarn****
+```bash
+yarn add @kokoro-ui/avatar
+```
+
+---
+
+# Usage
+
+**Typescript**
+```tsx
+import { Avatar } from "@kokoro-ui/avatar";
+
+const app = () => {
+    return (
+        <Avatar
+            alt="Jeanice"
+            name="JC"
+            src="https://images.pexels.com/photos/2034538/pexels-photo-2034538.jpeg"
+        />
+    )
+};
+
+export default app;
+```
+
+**Javascript**
+```jsx
+const { Avatar } = require("@kokoro-ui/avatar");
+
+const app = () => {
+    return (
+        <Avatar
+            alt="Jeanice"
+            name="JC"
+            src="https://images.pexels.com/photos/2034538/pexels-photo-2034538.jpeg"
+        />
+    )
+};
+
+export default app;
+```
