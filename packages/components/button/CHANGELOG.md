@@ -1,5 +1,13 @@
 # @kokoro-ui/button
 
+## 0.0.21
+
+### Patch Changes
+
+- feat: add more components
+- Updated dependencies
+  - @kokoro-ui/theme@0.0.11
+
 ## 0.0.20
 
 ### Patch Changes

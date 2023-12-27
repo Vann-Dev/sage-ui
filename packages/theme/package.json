@@ -1,6 +1,6 @@
 {
   "name": "@kokoro-ui/theme",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Kokoro UI theme package",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",

@@ -1,5 +1,11 @@
 # @kokoro-ui/theme
 
+## 0.0.11
+
+### Patch Changes
+
+- feat: add more components
+
 ## 0.0.10
 
 ### Patch Changes
