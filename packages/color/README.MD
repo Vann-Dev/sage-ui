@@ -32,7 +32,7 @@ yarn add @kokoro-ui/color
 
 <br/>
 
-## **Custom color**
+## **Tailwind Setup**
 
 **tailwind.config.js**
 ```js
@@ -48,7 +48,10 @@ module.exports = {
     extend: {},
   },
   plugins: [color({
-    primary: "#fff"
+    primary: "#32A6FC",
+    secondary: "#52525b",
+    danger: "#f74434",
+    warning: "#f7c334"
   })],
 };
 ```
@@ -64,17 +67,14 @@ const config: Config = {
     "./node_modules/@kokoro-ui/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
-    },
+    extend: {},
   },
   plugins: [color({
-    primary: "#fff"
+    primary: "#32A6FC",
+    secondary: "#52525b",
+    danger: "#f74434",
+    warning: "#f7c334"
   })],
 }
 export default config
-````
+```
