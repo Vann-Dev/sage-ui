@@ -1,6 +1,6 @@
 {
   "name": "@kokoro-ui/chips",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Kokoro UI chips package",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -56,7 +56,7 @@
     }
   },
   "dependencies": {
-    "@kokoro-ui/theme": "^0.0.11"
+    "@kokoro-ui/theme": "^0.0.12"
   },
   "peerDependencies": {
     "react": ">=18",
