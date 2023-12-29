@@ -1,0 +1,58 @@
+# @kokoro-ui/code
+
+<br/>
+
+---
+
+## ****npm****
+```bash
+npm i @kokoro-ui/code
+```
+
+---
+
+## ****pnpm****
+```bash
+pnpm add @kokoro-ui/code
+```
+
+---
+
+## ****yarn****
+```bash
+yarn add @kokoro-ui/code
+```
+
+---
+
+# Usage
+
+**Typescript**
+```tsx
+import { Code } from "@kokoro-ui/code";
+
+const app = () => {
+    return (
+        <Code variant="secondary">
+            npm i @kokoro-ui/code
+        </Code>
+    )
+};
+
+export default app;
+```
+
+**Javascript**
+```jsx
+const { Code } = require("@kokoro-ui/code");
+
+const app = () => {
+    return (
+        <Code variant="secondary">
+            npm i @kokoro-ui/code
+        </Code>
+    )
+};
+
+export default app;
+```
