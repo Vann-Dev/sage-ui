@@ -1,0 +1,75 @@
+{
+  "name": "@kokoro-ui/radio",
+  "version": "0.0.1",
+  "description": "Kokoro UI radio package",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src --ext ts",
+    "lint:fix": "eslint src --fix --ext ts"
+  },
+  "files": [
+    "./dist",
+    "./package.json"
+  ],
+  "keywords": [
+    "theme",
+    "kokoro-ui",
+    "ui",
+    "ux",
+    "component",
+    "tailwindcss",
+    "tailwindcss",
+    "nextjs"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "author": "Vann-Dev",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@hazmi35/eslint-config": "^11.0.0",
+    "@types/react": "^18",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "eslint": "^8.56.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "typescript": "^5.3.3"
+  },
+  "eslintConfig": {
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended",
+      "@hazmi35/eslint-config/typescript"
+    ],
+    "rules": {
+      "class-methods-use-this": "off"
+    }
+  },
+  "dependencies": {
+    "@kokoro-ui/theme": "^0.0.12"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vann-Dev/kokoro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vann-Dev/kokoro/issues"
+  },
+  "homepage": "https://github.com/Vann-Dev/kokoro#readme",
+  "gitHead": "245f8915fae06ac9906b61262086c72a10d8639a"
+}
