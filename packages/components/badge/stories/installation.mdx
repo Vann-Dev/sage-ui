@@ -1,0 +1,78 @@
+import { Meta, Markdown } from "@storybook/blocks";
+
+<Meta title="Components/Badge/Installation" />
+
+# @kokoro-ui/badge
+
+<br/>
+
+---
+
+## ****npm****
+```bash
+npm i @kokoro-ui/badge
+```
+
+---
+
+## ****pnpm****
+```bash
+pnpm add @kokoro-ui/badge
+```
+
+---
+
+## ****yarn****
+```bash
+yarn add @kokoro-ui/badge
+```
+
+---
+
+# Usage
+
+**Typescript**
+```tsx
+import { Badge } from "@kokoro-ui/badge";
+
+const app = () => {
+    return (
+        <Badge
+            badgeContent=""
+            className="bg-green-500 border-2 border-secondary"
+            position="bottom-right"
+        >
+            <Avatar
+                alt="Jeanice"
+                name="JC"
+                src="https://i.pravatar.cc/300?u=4nfawf369026704d"
+            />
+        </Badge>
+    )
+};
+
+export default app;
+```
+
+**Javascript**
+```jsx
+const { Badge } = require("@kokoro-ui/badge");
+
+const app = () => {
+    return (
+        <Badge
+            badgeContent=""
+            className="bg-green-500 border-2 border-secondary"
+            position="bottom-right"
+        >
+            <Avatar
+                alt="Jeanice"
+                name="JC"
+                src="https://i.pravatar.cc/300?u=4nfawf369026704d"
+            />
+        </Badge>
+    )
+};
+
+export default app;
+```
