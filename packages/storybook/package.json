@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "next start",
-    "build": "turbo run build && next build",
+    "build": "storybook build -o ./public/docs && next build",
     "dev": "next dev",
     "storybook:dev": "storybook dev -p 6006",
     "storybook:build": "storybook build -o ./public/docs"
