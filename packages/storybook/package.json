@@ -3,12 +3,15 @@
   "version": "0.0.25",
   "private": true,
   "scripts": {
-    "start": "pnpm dlx http-server storybook-static",
-    "dev": "storybook dev -p 6006 -s public",
-    "build": "storybook build"
+    "start": "next start",
+    "build": "turbo run build && next build",
+    "dev": "next dev",
+    "storybook:dev": "storybook dev -p 6006",
+    "storybook:build": "storybook build -o ./public/docs"
   },
   "dependencies": {
     "@kokoro-ui/button": "workspace:^",
+    "@kokoro-ui/code": "workspace:^",
     "@kokoro-ui/color": "workspace:^",
     "@kokoro-ui/theme": "workspace:^",
     "next": "14.0.4",

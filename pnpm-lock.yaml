@@ -44,7 +44,7 @@ importers:
   packages/components/avatar:
     dependencies:
       '@kokoro-ui/theme':
-        specifier: ^0.0.11
+        specifier: ^0.0.12
         version: link:../../theme
     devDependencies:
       '@hazmi35/eslint-config':
@@ -75,7 +75,7 @@ importers:
   packages/components/badge:
     dependencies:
       '@kokoro-ui/theme':
-        specifier: ^0.0.11
+        specifier: ^0.0.12
         version: link:../../theme
     devDependencies:
       '@hazmi35/eslint-config':
@@ -106,7 +106,7 @@ importers:
   packages/components/button:
     dependencies:
       '@kokoro-ui/theme':
-        specifier: ^0.0.11
+        specifier: ^0.0.12
         version: link:../../theme
     devDependencies:
       '@hazmi35/eslint-config':
@@ -137,7 +137,7 @@ importers:
   packages/components/checkbox:
     dependencies:
       '@kokoro-ui/theme':
-        specifier: ^0.0.11
+        specifier: ^0.0.12
         version: link:../../theme
     devDependencies:
       '@hazmi35/eslint-config':
@@ -168,7 +168,7 @@ importers:
   packages/components/chips:
     dependencies:
       '@kokoro-ui/theme':
-        specifier: ^0.0.11
+        specifier: ^0.0.12
         version: link:../../theme
     devDependencies:
       '@hazmi35/eslint-config':
@@ -199,7 +199,7 @@ importers:
   packages/components/code:
     dependencies:
       '@kokoro-ui/theme':
-        specifier: ^0.0.11
+        specifier: ^0.0.12
         version: link:../../theme
     devDependencies:
       '@hazmi35/eslint-config':
@@ -230,7 +230,7 @@ importers:
   packages/components/divider:
     dependencies:
       '@kokoro-ui/theme':
-        specifier: ^0.0.11
+        specifier: ^0.0.12
         version: link:../../theme
     devDependencies:
       '@hazmi35/eslint-config':
@@ -261,7 +261,7 @@ importers:
   packages/components/radio:
     dependencies:
       '@kokoro-ui/theme':
-        specifier: ^0.0.11
+        specifier: ^0.0.12
         version: link:../../theme
     devDependencies:
       '@hazmi35/eslint-config':
@@ -294,6 +294,9 @@ importers:
       '@kokoro-ui/button':
         specifier: workspace:^
         version: link:../components/button
+      '@kokoro-ui/code':
+        specifier: workspace:^
+        version: link:../components/code
       '@kokoro-ui/color':
         specifier: workspace:^
         version: link:../color
